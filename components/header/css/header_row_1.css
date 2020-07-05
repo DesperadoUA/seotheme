@@ -1,0 +1,18 @@
+.header_row_1 {
+    background: var(--color_2);
+}
+.header_row_1_wrapper {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width: 1200px) {
+  .header_row_1_wrapper {
+      flex-wrap: wrap;
+      padding: 0px;
+  }
+    .header_phone {
+        width: 100%;
+    }
+}

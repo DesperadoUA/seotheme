@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Podkova';
+    src: url('/wp-content/themes/myWorld/fonts/Podkova-VariableFont_wght.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('/wp-content/themes/myWorld/fonts/Roboto-Regular.ttf') format("truetype");
+    font-display: swap;
+}

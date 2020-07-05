@@ -1,0 +1,1 @@
+<img src="/wp-content/themes/myWorld/components/mobile_burger/img/burger.png" class="mobile_burger">

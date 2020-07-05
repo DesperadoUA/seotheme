@@ -1,0 +1,145 @@
+.review_2 {
+    background: var(--color_7);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.comments_title_2 {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font_1);
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: var(--color_1);
+    text-shadow: 1px 1px 2px black, 0 0 1em;
+}
+.comments_row_2 {
+    padding: 15px;
+    background: var(--color_3);
+    margin-bottom: 20px;
+    box-shadow: -1px 5px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+.comments_row_info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.comments_row_name_2 {
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+}
+.comments_row_data_2 {
+    font-weight: bold;
+}
+.comments_row_answer {
+    margin-left: 30px;
+    background: var(--color_7);
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.comments_row_answer_link a {
+    color: var(--color_1);
+    font-size: 18px;
+}
+.comments_row_answer_link {
+    margin-bottom: 10px;
+}
+.comment_form_ajax {
+    width:700px;
+    margin: 0 auto;
+    background: var(--color_3);
+    border: 3px solid var(--color_1);
+    border-radius: 4px;
+    padding: 15px;
+    box-shadow: -1px 5px 15px rgba(0, 0, 0, 0.25);
+}
+.comment_form_info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.comment_form_input_wrapper input {
+    width:300px;
+    height: 35px;
+    border: none;
+    border-bottom: 3px solid var(--color_1);
+}
+.comment_form_comment textarea
+{
+    display: block;
+    border: 3px solid var(--color_1);
+    padding: 15px;
+    width: 400px;
+    margin: 0 auto;
+}
+.form_submit {
+    text-align: center;
+    padding: 15px;
+}
+.submit_ajax_comment {
+    padding: 15px 25px;
+    background: var(--color_1);
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.form_container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 100%;
+}
+.form_title {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font_1);
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: var(--color_1);
+    text-shadow: 1px 1px 2px black, 0 0 1em;
+}
+@media (max-width: 1200px) {
+    .comment_form_ajax {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .comment_form_info {
+        flex-wrap: wrap;
+    }
+    .comment_form_input_wrapper {
+        width: 100%;
+    }
+    .comment_form_input_wrapper input {
+        width: 100%;
+    }
+    .comment_form_comment textarea {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .submit_ajax_comment {
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+    .form_submit {
+        padding: 15px 0px;
+    }
+}
+@media (min-width: 767px) and (max-width: 1200px) {
+    .comment_form_input_wrapper {
+        width: 50%;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+    .comment_form_comment {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

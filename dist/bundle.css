@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(11eabca2251325cfc5589c9c6fb57b46.ttf) format("truetype");
+}
+.faq {
+    padding: 30px 0px;
+}
+.faq_title {
+    font-family: var(--font_1);
+    text-align: center;
+    font-size: 35px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    color: var(--color_1);
+    display: block;
+    width: 90%;
+    text-shadow: 1px 1px 2px black, 0 0 1em;
+}
+.faq_wrapper {
+    color: var(--color_2);
+    box-sizing: border-box;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: var(--color_7);
+    padding: 20px;
+    border-radius: 6px;
+}
+.faq_question {
+    background: var(--color_3);
+    border: 1px solid var(--color_3);
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 5px 75px 5px 25px;
+    margin-top: 15px;
+    font-family: var(--font_2);
+    font-style: normal;
+    font-weight: bold;
+    line-height: 36px;
+    color: var(--color_2);
+    position: relative;
+    cursor: pointer;
+    font-size: 16px;
+}
+.faq_close {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    background: url('/wp-content/themes/myWorld/components/faq/img/close_faq.png');
+    top: 10px;
+    right: 25px;
+    transition: 0.7s;
+}
+.faq_answer {
+    color: var(--color_2);
+    box-sizing: border-box;
+    border-top: 3px solid var(--color_7);
+    font: inherit;
+    line-height: 22px;
+    vertical-align: baseline;
+    background: var(--color_3);
+    padding: 45px 65px;
+    display: none;
+    opacity: 0;
+    transition: 0.7s;
+}
+.fadeIn {
+    display: block;
+    opacity: 1;
+}
+.faq_active .faq_close {
+    transform: rotate(180deg);
+    background: url('/wp-content/themes/myWorld/components/faq/img/active_faq.png');
+}
+@media (max-width: 767px) {
+   .faq_question {
+       padding: 5px 50px 5px 10px;
+   }
+    .faq_answer {
+        padding: 10px;
+    }
+    .faq_title {
+        font-size: 24px;
+    }
+    .faq {
+        padding: 10px 0px;
+    }
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    height: 100px;
+    background: red;
+    margin: 0 auto;
+}
+
+.card{height:100px;background:red}
+
+
+/*# sourceMappingURL=bundle.css.map*/

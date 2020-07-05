@@ -1,0 +1,28 @@
+.top_blog .blog_thumbnail {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+.top_blog {
+    padding-top: 190px;
+}
+.top_blog h1 {
+    text-align: left;
+    margin-top: 0px;
+}
+@media (max-width: 767px) {
+    .top_blog {
+        padding-top: 30px;
+    }
+    .top_blog h1 {
+        margin-bottom: 30px;
+    }
+    .blog_thumbnail {
+        width: 100%;
+    }
+}
+@media (min-width: 767px) and (max-width: 1200px) {
+    .top_blog {
+        padding-top: 30px;
+    }
+}

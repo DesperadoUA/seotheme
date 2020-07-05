@@ -1,0 +1,26 @@
+.header_mail {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    padding-left: 15px;
+    justify-content: center;
+}
+.header_mail_link {
+    color: var(--color_3);
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 3px;
+    transform: translateY(-2px);
+}
+@media (max-width: 1200px) {
+    .header_mail {
+        padding: 5px 0px;
+        width: 50%;
+        flex-grow: 0;
+        justify-content: flex-start;
+        box-sizing: border-box;
+    }
+    .header_mail a {
+        font-size: 13px;
+    }
+}

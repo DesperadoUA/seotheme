@@ -1,0 +1,35 @@
+.search_wrapper {
+    display: flex;
+}
+.search_input {
+    height: 35px;
+    width: 300px;
+    display: block;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.search_button {
+    height: 35px;
+    background: var(--color_2);
+    color: var(--color_3);
+    display: block;
+    border: none;
+    padding: 0px 25px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+@media (max-width: 1200px) {
+    .search_wrapper {
+        display: flex;
+        width: 100%;
+    }
+    .search_input {
+        width:auto;
+        flex-grow: 1;
+    }
+    .search_button {
+        height: 35px;
+        padding: 0px 15px;
+        flex-grow: 0;
+    }
+}

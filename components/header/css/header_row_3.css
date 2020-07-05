@@ -1,0 +1,12 @@
+.header_row_3 {
+    background: var(--color_5);
+    position: relative;
+}
+.header .overflow_show {
+    overflow: inherit;
+}
+@media (max-width: 1200px) {
+    .header_row_3 {
+        overflow: hidden;
+    }
+}

@@ -1,0 +1,25 @@
+.social {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    padding-left: 15px;
+    justify-content: center;
+}
+.social_item {
+    padding: 5px;
+}
+.social img {
+    display: block;
+    width: 25px;
+}
+@media (max-width: 1200px) {
+    .social {
+        padding-left: 0px;
+        width: 50%;
+        flex-grow: 0;
+        justify-content: flex-end;
+    }
+    .social_item img {
+        width: 20px;
+    }
+}
